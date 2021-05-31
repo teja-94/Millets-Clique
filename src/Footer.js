@@ -1,14 +1,5 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
-import { SocialIcon } from 'react-social-icons';
-import {
-    FacebookIcon, FacebookShareButton,
-    TwitterShareButton, TwitterIcon, PinterestShareButton,
-    RedditShareButton,
-    TumblrShareButton,
-    PinterestIcon,
-    RedditIcon, TumblrIcon
-} from 'react-share'
 import Home from './Home';
 import Checkout from './Checkout';
 import './Footer.css';
@@ -18,40 +9,15 @@ import './Footer.css';
 export default class Footer extends Component {
   render() {
     return (
-    <div>
 
-    		<footer class="footer-distributed">
+    	 <div className="footer-div">
+        <p className={ "footer-text"}>
+        	<p id="footer"> &copy; {new Date().getFullYear()} Copyright: <a href="https://teja-94.github.io/"> Teju-Teja </a> </p>
 
-    			<div class="footer-right">
-
-
-    				<a href="#"><i class="fa fa-facebook"></i></a>
-    				<a href="#"><i class="fa fa-twitter"></i></a>
-    				<a href="#"><i class="fa fa-linkedin"></i></a>
-    				<a href="#"><i class="fa fa-github"></i></a>
-
-    			</div>
-
-    			<div class="footer-left">
-
-    				<p class="footer-links">
-    					<a class="link-1" href="Home">Home</a>
-
-    					<a href="Checkout">Checkout</a>
-
-    					<a href="#">Pricing</a>
-
-    					<a href="#">About</a>
-
-
-    					<a href="Contact">Contact</a>
-    				</p>
-
-    				<p id="footer"> &copy; {new Date().getFullYear()} Copyright: <a href="https://www.linkedin.com/in/tejeswini-katuboyana-339800147/"> Teju-Teja </a></p>
-    			</div>
-
-    		</footer>
-    		</div>
+  </p>
+      
+      </div>
+    	
      /* <footer className="page-footer blue-grey darken-1">
           <div >
           <div>
