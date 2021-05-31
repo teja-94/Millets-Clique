@@ -1,18 +1,14 @@
 {
-  "name": "millets-clique.github.io",
+  "name": "millets-clique",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-brands-svg-icons": "^5.15.3",
-    "@fortawesome/react-fontawesome": "^0.1.14",
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
     "firebase": "^8.2.1",
-    "font-awesome": "^4.7.0",
     "react": "^17.0.1",
     "react-currency-flags": "^0.1.2",
     "react-currency-format": "^1.0.0",
@@ -21,12 +17,9 @@
     "react-intl": "^5.10.8",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^4.0.3",
-    "react-share": "^4.4.0",
-    "react-social-icons": "^5.1.1",
+    "react-scripts": "^4.0.1",
     "react-ui-cards": "^2.0.0",
     "snyk": "^1.437.2",
-    "styled-components": "^5.2.3",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -55,14 +48,7 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/teja-94/millets-clique.github.io.git"
-  },
+  "devDependencies": {},
   "author": "Teja-Teju",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/teja-94/millets-clique.github.io/issues"
-  },
-  "homepage": "https://github.com/teja-94/millets-clique.github.io#readme"
+  "license": "ISC"
 }
