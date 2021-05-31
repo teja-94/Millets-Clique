@@ -63,11 +63,12 @@ function App() {
                         <Header />
                         <Home />
 
-                        <Footer />
                     </Route>
 
 
             </Switch>
+
+                        <Footer />
          </div>
     </Router>
   );
