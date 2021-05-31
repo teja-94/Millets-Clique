@@ -1,5 +1,5 @@
 {
-  "name": "appyyy",
+  "name": "millets-clique.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +21,7 @@
     "react-intl": "^5.10.8",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^4.0.1",
+    "react-scripts": "^4.0.3",
     "react-share": "^4.4.0",
     "react-social-icons": "^5.1.1",
     "react-ui-cards": "^2.0.0",
@@ -52,5 +52,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teja-94/millets-clique.github.io.git"
+  },
+  "author": "Teja-Teju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teja-94/millets-clique.github.io/issues"
+  },
+  "homepage": "https://github.com/teja-94/millets-clique.github.io#readme"
 }

@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
-
 * {
-  font-family: Roboto;
+    font-family: Roboto;
 }
 
-.p>footer{
+
+/* .p>footer{
 text-align:center;
 }
 
@@ -25,7 +25,8 @@ text-align:center;
 }
 /* Footer links */
 
-.footer-distributed p.footer-links {
+
+/* .footer-distributed p.footer-links {
   font-size: 18px;
   font-weight: bold;
   color: Black;
@@ -95,7 +96,8 @@ a.instagram {
 
 /* Media Queries */
 
-@media (max-width: 600px) {
+
+/* @media (max-width: 600px) {
   .footer-distributed .footer-left, .footer-distributed .footer-right {
     text-align: center;
   }
@@ -107,22 +109,13 @@ a.instagram {
     line-height: 1.8;
   }
 }
+*/
 
-
-
-
-/* footer {
-
+footer {
     padding: 0.5rem;
-     margin:0%;
+    margin: 0%;
     text-align: center;
     transition: 200ms;
-background: white;
-    &:hover {
-         box-shadow: 0 0 2rem gray;
-       }
-  }
-  .footer-copyright{
-  text-align:left
-  }
-*/
+    background-color: rgb(215, 243, 196);
+    margin: 0;
+}
