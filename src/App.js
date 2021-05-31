@@ -1,9 +1,10 @@
 import React,{useEffect} from 'react';
 import './App.css';
 import {Switch} from 'react-router'; 
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { BrowserRouter as Router, Route,useHistory } from "react-router-dom";
 import Header from './Header';
-import Footer from './Footer'
+import Footer from './Footer';
+
 import Home from './Home';
 import Checkout from './Checkout';
 import { useStateValue } from './StateProvider'
@@ -12,9 +13,12 @@ import {auth} from './Firebase'
 
 
 function App() {
+
+
     const [{ user }, dispatch] = useStateValue();
     //useEffect --- poweful
     //piece of code which runs based on condition
+
 
 
     useEffect(() => {
@@ -46,7 +50,9 @@ function App() {
     console.log("User Is>>>>",user);
 
     return (
+
     <Router>
+
         <div className="App">
             <Switch>
                     <Route path="/checkout">
@@ -56,22 +62,25 @@ function App() {
                     </Route>  
                     <Route path="/login">
                     <Login />
+		
                     
                     </Route> 
                     {/* default page */}
                     <Route path="/"> 
-                        <Header />
+                        <Header destination='login' />
+			
                         <Home />
-
-                    </Route>
-
+			
+                       
+                    </Route> 
 
             </Switch>
-
-                        <Footer />
+                <Footer />
+                
          </div>
     </Router>
   );
 }
+
 
 export default App;

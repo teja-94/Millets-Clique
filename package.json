@@ -9,6 +9,7 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
     "firebase": "^8.2.1",
+    "history": "^4.10.1",
     "react": "^17.0.1",
     "react-currency-flags": "^0.1.2",
     "react-currency-format": "^1.0.0",
@@ -48,7 +49,6 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
   "author": "Teja-Teju",
   "license": "ISC"
 }
